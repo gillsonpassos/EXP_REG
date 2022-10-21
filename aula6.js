@@ -14,6 +14,7 @@ const { ips, cpfs } = require("./base");
 //  0  -  9  \d
 
 //console.log(ips);
+//const ipRegExp = /^(25[0-5]|2[0-4][0-9]|1\d{2}|[1-9]\d|\d)(\.)/g;
 const ipRegExp = /^(25[0-5]|2[0-4][0-9]|1\d{2}|[1-9]\d|\d)(\.)/g;
 
 for (let i = 0; i < 300; i++) {
