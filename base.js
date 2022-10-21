@@ -16,7 +16,7 @@ const arquivos = [
   "Foto.jpeg",
   "Meu gatinho.jpg",
   "Meu gatinho.JPG",
-  "Meu gatinho.JPEG",
+  "Meu gatinho.JPeeEEEEeeeeeeeeeeeeeeeeeeeEEEEEEEEEEEEEG",
   "Marido.png",
   "lista de compras.txt",
 ];
@@ -27,7 +27,15 @@ const cpfs = `Os CPFs são:
  
  
  963.987.321-00
+ 
+ 963.987.32a.00  (NÃO VÁLIDO)
+ 963.987.32-00   (NÃO VÁLIDO) 
  `;
+
+const cpfs2 = `254.224.877-45
+ 215.978.456-12 
+ 047.258.369-96 
+ 963.987.32a.00`;
 
 const ips = `
  
@@ -55,4 +63,5 @@ module.exports = {
   alfabeto,
   cpfs,
   ips,
+  cpfs2,
 };
